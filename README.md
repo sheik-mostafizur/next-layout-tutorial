@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hiding Root Layout in Next.js Subpages: A Step-by-Step Guide
 
-## Getting Started
+## Step 1
 
-First, run the development server:
+- Setup nextjs project
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+![Install nextjs project](./images/1-2025-03-14_12-19.png)
+
+## Step 2
+
+- Create Some layout and pages
+
+![Install nextjs project](./images/2-2025-03-14_12-32.png)
+
+### File and Folder Structures
+
+```
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+├── page.tsx
+├── (post)
+│   ├── (create)
+│   │   └── post
+│   │       └── create
+│   │           └── page.tsx
+│   └── post
+│       ├── layout.tsx
+│       └── page.tsx
+└── (root)
+    ├── about
+    │   └── page.tsx
+    ├── home
+    │   └── page.tsx
+    └── layout.tsx
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Step 3
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Visit `http://localhost:3000/post` with layout
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Install nextjs project](./images/3-2025-03-14_12-32.png)
 
-## Learn More
+## Step 4
 
-To learn more about Next.js, take a look at the following resources:
+- Visit `http://localhost:3000/post/create` without layout
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Install nextjs project](./images/4-025-03-14_12-32.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Follow me
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Linkedin](https://www.linkedin.com/in/sheik-mostafizur/)
+- [Twitter](https://x.com/sheikmostafizur)
+- [GitHub](https://github.com/sheik-mostafizur)
