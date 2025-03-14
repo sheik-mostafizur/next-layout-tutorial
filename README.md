@@ -17,6 +17,8 @@ cd your-project-name
 
 Next, organize your project by creating layouts and pages. For this example, we will create several layouts and pages to demonstrate how to hide the root layout for specific subpages.
 
+![Create Layouts and Pages](./images/2-2025-03-14_12-32.png)
+
 ### File and Folder Structure
 
 Ensure your project folder structure looks like this:
